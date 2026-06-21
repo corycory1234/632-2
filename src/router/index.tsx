@@ -20,9 +20,9 @@ export const router = createBrowserRouter(
     }
   ],
 
-  // {
-  //   basename: "/632-2/", // GitHub 自動部屬, 要對齊 repo 英文名稱
-  // }
+  {
+    basename: "/632-2/", // GitHub 自動部屬, 要對齊 repo 英文名稱
+  }
 );
 
 export default router;
