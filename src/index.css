@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme {
+  --color-bg:            oklch(1.000 0.000 0);
+  --color-surface:       oklch(0.972 0.005 40);
+  --color-ink:           oklch(0.18  0.012 40);
+  --color-primary:       oklch(0.620 0.201 40);
+  --color-primary-hover: oklch(0.560 0.201 40);
+  --color-accent:        oklch(0.28  0.080 220);
+  --color-muted:         oklch(0.45  0.008 40);
+  --color-border:        oklch(0.88  0.006 40);
+  --color-error:         oklch(0.50  0.180 25);
+
+  --animate-book-item: book-item-in 0.2s ease-out;
+}
+
+@keyframes book-item-in {
+  from { transform: translateY(6px); }
+  to   { transform: translateY(0); }
+}
